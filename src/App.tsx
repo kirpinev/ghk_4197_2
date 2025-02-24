@@ -12,6 +12,7 @@ import transfer from "./assets/transfer.png";
 import cash from "./assets/cash.png";
 import discount from "./assets/discount.png";
 import family from "./assets/family.png";
+import protection from "./assets/protection.png";
 import { LS, LSKeys } from "./ls";
 import { appSt } from "./style.css";
 import { ThxLayout } from "./thx/ThxLayout";
@@ -38,7 +39,7 @@ const products: Array<Product> = [
   {
     title: "Защита от мошенничества",
     text: "Бесплатно и надежно",
-    image: smileArrow,
+    image: protection,
     isNew: true,
   },
   {
